@@ -21,7 +21,7 @@ server.use("/api", isLoggedIn, postRoute);
 
 server.get('/', (req, res) => {
   
-    res.status(200).json({message: "Vivid Connections Social Media API"});
+    res.status(200).json({message: "Mirra Social Network API"});
 
 });
 

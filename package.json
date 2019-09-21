@@ -1,11 +1,11 @@
 {
-  "name": "vivid-api",
+  "name": "mirra-api",
   "version": "0.0.01",
   "description": "api for vivid communications social media hub",
   "main": "knexfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NZ-Studios/vivid-api.git"
+    "url": "https://github.com/NZ-Studios/mirra-api.git"
   },
   "author": "AustinLynes",
   "scripts": {
