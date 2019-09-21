@@ -7,7 +7,7 @@ module.exports = {
         client: "sqlite3",
         useNullAsDefault: true,
         connection: {
-            filename: "./data/vivid.db3"
+            filename: "./data/mirra.db3"
         },
         migrations: {
             directory: "./migrations"

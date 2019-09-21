@@ -34,7 +34,7 @@ function validateUser(req, res, next) {
 async function isLoggedIn(req, res, next) {
     const verify = jwt.verify(req.headers.authorize);
     if (verify.status === 0) {
-        req.user = { token: req.headers.authorization, email: verify.results.email, id: verify.results.id };
+        req.user = {token: req.headers.authorization, email: verify.results.email, id: verify.results.id} ;
         next();
     }
     else {
